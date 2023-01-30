@@ -1,0 +1,291 @@
+/**************************** FONTS */
+
+
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+@import url('https://fonts.cdnfonts.com/css/foco-trial');
+
+/**************************** TAGS */
+h1, h2, h3 {
+    font-family: 'harry potter', sans-serif;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 700%;
+    padding: 70px;
+}
+
+h2 {
+    font-size: 400%;
+    padding: 40px;
+}
+
+h3 {
+    font-size: 200%;
+    padding: 20px;
+}
+
+p {
+    font-family:'foco trial';
+    padding-top: 15px;
+/*    letter-spacing: 1px;*/
+    font-size: 1.50em;
+    margin: 25px 25px;
+    text-align:justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+  background-image: url("../images/harry-vold.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+ul {
+    list-style:none;
+    text-align: center;
+}
+
+ol {
+    font-family:'foco trial';
+    padding-top: 15px;
+    font-size: 1.50em;
+    margin: 25px;
+    padding-left: 350px;
+    text-align:left;   
+}
+
+
+
+/**************************** CLASS */
+
+.video {
+    padding-right:20px;
+}
+
+.book7 { 
+    background-color:#000;
+    color:#FFF;
+}
+
+.contact {
+    width:50%;
+    text-align: center;
+    padding: 15px 0;
+    height:420px;
+}
+
+.edinburgh {
+    width:50%;
+    display:inline-block;
+}
+
+.contact {
+    background-color:rgba(253, 255, 161, 0.45);
+}
+
+.contact h4, .contact p, .contact a {
+    font-size:100%;
+    font-family:sans-serif;
+    text-align:center;
+    margin:10px; 
+    font-style:initial;
+}
+.contact img {
+    margin:-40px;
+}
+
+.lefty {
+    float:left;
+}
+
+.righty {
+    float:right;
+}
+
+/**************************** ID */
+
+#mainContainer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width:900px;
+    
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+
+#mainFooter {
+    padding: 50px;
+    font-size:1.1em;
+    font-family:sans-serif;
+    color:#FFF;
+    background-color: rgba(0, 0, 0, 0.83);
+}
+
+#bookcovers {
+    float:left;
+    padding-top:25px;
+    padding-left:40px;
+}
+
+#book1 { 
+    background-color:#b63062;
+    color:#e9c353;
+}
+
+#book2 { 
+    background-color:#2e4684;
+    color:#6ab156;
+}
+
+#book3 { 
+    background-color:#682c73;
+    color:#f1bb6d;
+}
+
+#book4 { 
+    background-color:#e32b46;
+    color:#20528e;
+}
+
+#book5 { 
+    background-color:#fdb94b;
+    color:#b5243f;
+    
+}
+
+#book6 { 
+    background-color:#0053a1;
+    color:#3bb74a;
+}
+
+#fantastic {
+    text-align: center;
+}
+
+#hogwartsView {
+    width:900px;
+}
+
+#bye {
+    margin:40px 0;
+}
+
+/**************************** COMPOUND */
+
+ul li p, .video iframe {
+    display:inline-block;
+}
+
+
+
+
+
+
+
+/**************************** DESCENDANTS */
+
+#mainNav div {
+    font-family:'foco trial';
+    font-size: 1.1em;
+    display:inline-block;
+    width: 140px;
+    height:60px;
+    color:#000;
+    font-weight: bold;
+    color:#FFF;
+    margin-bottom:100px;
+}
+
+#mainNav div a {
+    color:#FFF;
+    padding:20px;
+    display: block;
+}
+
+ol lh {
+    line-height:50px;
+}
+
+ol li {
+    margin: 10px 20px;
+}
+
+ul li h3 {
+    text-align:center;
+    display:block;
+    clear:both;
+    margin:80px 0 30px -30px;
+    line-height:30px;
+}
+
+ul li p {
+    max-width: 400px;
+    text-align:center;
+    padding:0;
+    margin:0;
+    float:left;
+    text-align: justify;
+}
+
+.video iframe {
+    width:430px;
+    height:250px;
+}
+
+
+
+
+
+
+/**************************** HOVERS ON ANCHORS */
+
+#mainNav div a:hover {
+    background-repeat: no-repeat;
+    background-position:center bottom;
+    
+    resize: vertical;
+    overflow: bottom;
+    height: 182px;
+    margin-bottom:80px; 
+}
+
+#movies {
+    background-color:#dc2924;
+}
+
+#movies a:hover {
+    background-image: url(../images/gryffindor_banner.png);
+}
+
+#hogwarts {
+    background-color:#14565b;
+}
+
+#hogwarts a:hover {
+    background-image: url(../images/slytherin_banner.png); 
+}
+
+#parks {
+    background-color:#181947;
+}
+
+#parks a:hover {
+    background-image: url(../images/ravenclaw_banner.png);
+}
+
+#lumos {
+    background-color:#e3ac51;
+}
+
+#lumos a:hover {
+    background-image: url(../images/hufflepuff_banner.png);
+}
+
+
+

@@ -1,0 +1,215 @@
+/* SCSS HEX */
+/*
+pale-silver: #C7C0BD;
+deep-jungle-green: #1E4B49;
+azure-x-11-web-color: #D1E1E4;
+red-crayola: #E63348;
+middle-blue-green: #94E5D9;
+celadon-green: #399288;
+iceberg: #6EA4CE;
+english-violet: #5F4061;    */
+
+/********************* GLOBAL */
+
+h1 {
+    font-size: 110px; 
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 30px;
+    font-family: "brush script mt";
+    text-transform: unset;
+    font-weight: bold;
+    color: #FFF;
+    text-shadow: 1px 0px 27px #6EA4CE,1px 0px 27px #6EA4CE,1px 0px 27px #6EA4CE,1px 0px 27px #6EA4CE,1px 0px 27px #6EA4CE,1px 0px 27px #6EA4CE,1px 0px 27px #6EA4CE,1px 0px 27px #6EA4CE,1px 0px 27px #6EA4CE;
+}
+
+body {
+    background-color: #6EA4CE;
+    background-image: url(../images/top-banner.jpg);
+    background-size: 20%;
+    background-repeat: repeat-x;
+    padding:0;
+    margin-top:0;
+    font-family: helvetica;
+}
+
+
+
+
+
+
+h4 {
+    font-family: verdana thin;
+    font-size: 24px;
+    color:#1E4B49;
+    border-bottom: 1px solid #399288;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 25px;   
+}
+
+/********************* LAYOUT */
+
+.image-bali {
+    width:1000px;
+}
+
+.container {
+    width: 1000px;
+    margin-top: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    box-shadow: 0 0 7px #000;
+        
+    background-color: #FFF;
+}
+
+.clear-fix {
+    clear:both;
+}
+
+#mainNav {
+    font-family: verdana;
+    line-height:65px;
+    font-size: 30px;
+    
+    background-image: url(../images/gradient-nav.jpg);
+    background-repeat:repeat-x;
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+address {
+    text-align: left;
+    font-family: verdana;
+    font-size: 20px;
+    
+    margin-bottom: 25px;
+    padding-left:25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/********************* REUSABLE CLASSES */
+
+.offers {
+    float:left;
+}
+
+.current {
+    padding: 15px;
+    background: #FFF;
+    border:#399288 solid 2px;
+}
+
+.packages {
+    width:190px;
+    line-height:190px;
+    margin:5px;
+    float:left;
+    margin-bottom:25px;
+}
+
+/********************* IDS */
+
+#highlighted {
+    font-family: sans-serif;
+    border-top: #399288 1px solid;
+    border-bottom: #399288 1px solid;
+    padding: 10px;
+}
+
+#asia {
+    background-image:url(../images/asia.jpg);
+}
+
+#europe {
+    background-image:url(../images/europe.jpg);
+}
+
+#safari {
+    background-image:url(../images/safari.jpg);
+}
+
+#caribbean {
+    background-image:url(../images/caribbean.jpg);
+}
+
+#cruises {
+    background-image:url(../images/cruises.jpg);
+}
+
+#get-ready {
+    text-align: left;
+    font-family: helvetica;
+    font-size: 20px;
+    margin-bottom: 25px;
+    padding-left: 25px; 
+    padding-right:25px;
+}
+
+#mainFooter {
+    padding-top:20px;
+    padding-bottom: 20px;
+    border-top: #399288 1px solid;
+}
+
+/********************* DESCENDANT SELECTORS */
+
+.offers h5 {
+    font-family: helvetica;
+    font-size: 18px;
+    color:#FFF;
+    background-color:#399288;
+    margin-top:0;
+    margin-bottom: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.offers-wrapper {
+    width:900px;
+    height:280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.offers-wrapper:hover {
+    width:1000px;
+}
+
+#mainNav a {
+    color:#399288;
+}
+
+.packages a {
+    height:100%;
+    width:100%;
+    display:block;
+    color:#FFF;
+    font-size:30px;
+    font-family:fantasy;    
+}
+
+/********************* COMPOUND SELECTORS */
+
+.offers:hover, .offers:hover img {
+    width:400px;
+}
+
+ul, ol {
+    text-align: left;
+    font-family: helvetica;
+    font-size: 20px;
+    margin-bottom: 25px;    
+}
+
+
+
