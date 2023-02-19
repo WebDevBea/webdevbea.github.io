@@ -25,24 +25,29 @@
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 
     <script src="js/assignment_1.js"></script>
+    <script src="js/assignment_2.js"></script>
 
 </head>
 
-<body id="fashion-in-slow-motion">
+<body id="fashion-in-slow-motion" class="dark">
     <main id="mainContainer">
         <header>
             
         <!--CART BUTTON-->
 
             <nav id="cart">
-                <a href="javascript:void(0)"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="javascript:void(0)" title="View Cart"><i class="fa-solid fa-cart-shopping"></i></a>
                     <ul></ul>
             </nav>
 
             <h1 id="mainHeader">Fashion in Slow Motion</h1>
+
+        <!--LIGHT/DARK MODE-->
+            <button type="button" id="lightdark" title="Toggle Dark Mode"><i class="fa-solid fa-lightbulb"></i></button>
+
         </header>
 
-        
+<!--ASSIGNMENT 1--> 
         <!-- OUTFITS STORE -->
         <section id="outfits" class="mainStyle row centered gap20">
             <h2>Our Store</h2>
@@ -86,6 +91,28 @@
 
         </section>
 
+<!--ASSIGNMENT 2-->
+        <!-- PUG-AWESOME -->
+        <section class="mainStyle">
+            <h3>Pug-awesome</h3>
+            <div class="full">
+                <p>Check Tortuga's best friend, Pei the Pug. He loves going shopping with Tortuga and comparing outfits.</p>
+            </div>
+            <div class="row centered gap20">
+                <div class="col14">
+                    <img src="images/pug-1.jpeg" alt="pig" class="responsive">
+                </div>
+                <div class="col14">
+                    <img src="images/pug-2.jpg" title="UPS pug" class="responsive">
+                </div>
+                <div class="col14">
+                    <img src="images/pug-3.jpg" alt="Christmas elf" class="responsive">
+                </div>
+                <div class="col14">
+                    <img src="images/leia.png" class="responsive">
+                </div>
+            </div>
+        </section>
 
 
         <!-- CONTACT -->
