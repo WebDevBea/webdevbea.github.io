@@ -36,24 +36,24 @@ function setSoldOut(button){
 };
 
 //Open and close cart function.
-function toggleCart(){
-    if ($("#cart").children("ul").is(":empty")) {
-        alert("Your cart is empty!");
-        return;
-    }
+// function toggleCart(){
+//     if ($("#cart").children("ul").is(":empty")) {
+//         alert("Your cart is empty!");
+//         return;
+//     }
 
-    if ($("#cart").children("ul").is(":hidden")) {
-        $("#cart").children("ul").css("display", "block");
-    }
-    else {
-        $("#cart").children("ul").css("display", "none");
-    }
-}
+//     if ($("#cart").children("ul").is(":hidden")) {
+//         $("#cart").children("ul").css("display", "block");
+//     }
+//     else {
+//         $("#cart").children("ul").css("display", "none");
+//     }
+// }
 
 //Binds the addToCart and togglecart functions.
 function main(){
     $("#outfits").find("button").click(addToCart);
-    $("#cart").children("a").click(toggleCart);
+    // $("#cart").children("a").click(toggleCart);
 }
 
 //Call main on document ready.

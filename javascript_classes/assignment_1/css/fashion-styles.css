@@ -298,3 +298,37 @@ body.dark {
 .dark #lightdark i {
     color:#333;
 }
+
+
+/********TERMS AND CONDITIONS BUTTON*/
+
+#buttonTC {
+    border-style: none;
+    /* outline: 2px solid #928c6f;  */
+    background-color: #928c6f; 
+    color: #f1fcf1;
+    font-size: 1.2em;
+    padding: 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#readmore {
+    border-style: none;
+    background-color: transparent;
+    font-size: 1.2em;
+    font-family: 'Outfit', sans-serif;
+    color: #504c3c;
+    text-decoration: underline;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#readmore:hover {
+    scale: 120%;
+}
+
+#conditions,
+#moreconditions {
+    display:none;
+}
