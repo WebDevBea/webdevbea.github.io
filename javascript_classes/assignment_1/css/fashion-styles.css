@@ -42,6 +42,10 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+header{
+    height:300px;
+}
+
 #mainContainer h1 {
     font-size:350%;
     color:#d3fad6;
@@ -50,10 +54,16 @@ h1, h2, h3, h4, h5, h6 {
     
 }
 
-h2,
-h3 {
+h2{
     font-size: 180%;
     padding: 50px;
+}
+
+h1, h2 {display:none}
+
+h3{
+    font-size: 120%;
+    padding: 10px;
 }
 
 h4 {
@@ -66,10 +76,16 @@ h5 {
     padding:20px;
 }
 
+h6{
+    font-size: 120%;
+    padding-bottom: 10px;
+}
+
+section {padding-top:100px;}
 
 /********LIGHT/DARK MODE BUTTON*/
 
-#lightdark {
+#lightdark, #stopa {
     position: fixed;
     top: 30px;
     left: 15px;
@@ -81,6 +97,10 @@ h5 {
     height: 50px;
     color: #FFF;
     cursor: pointer;
+}
+
+#stopa {
+    left: 75px;
 }
 
 
@@ -148,10 +168,9 @@ align-content: center;}
     height:120px;
     text-align: center;
     line-height:120px;
-    padding-bottom: 250px;
 }
 
-#outfits {
+#outfits .row {
     flex-direction: row;
     flex-wrap: wrap;    
 }
@@ -199,7 +218,8 @@ align-content: center;}
 }
 
 .full img {
-    max-width: 50%;
+    max-width: 100%;
+    padding-bottom: 50px;
 }
 
 .full p {
@@ -238,7 +258,11 @@ align-content: center;}
     height:100%;
 }
 
+.homework3 {
+    display: none;
+}
 
+.space {height: 130px;}
 
 /********PHONE*/
 
@@ -268,39 +292,6 @@ align-content: center;}
     
 }
 
-/********TERMS AND CONDITIONS BUTTON*/
-
-#buttonTC {
-    border-style: none;
-    /* outline: 2px solid #928c6f;  */
-    background-color: #928c6f; 
-    color: #f1fcf1;
-    font-size: 1.2em;
-    padding: 15px;
-    cursor: pointer;
-    margin-bottom: 20px;
-}
-
-#readmore {
-    border-style: none;
-    background-color: transparent;
-    font-size: 1.2em;
-    font-family: 'Outfit', sans-serif;
-    color: #504c3c;
-    text-decoration: underline;
-    padding: 15px;
-    cursor: pointer;
-}
-
-#readmore:hover {
-    scale: 120%;
-}
-
-#conditions,
-#moreconditions {
-    display:none;
-}
-
 /*-------------DARK MODE-------------*/
 body.dark {
     background-color: #000;
@@ -325,14 +316,9 @@ body.dark {
     background-color: rgba(90, 90, 90);
 }
 
-.dark #lightdark {
+.dark #lightdark, .dark #stopa {
     background-color: #CCC;
 }
-.dark #lightdark i {
+.dark #lightdark i, .dark #stopa i {
     color:#333;
 }
-
-.dark #readmore {
-    color:#f1fcf1;
-}
-

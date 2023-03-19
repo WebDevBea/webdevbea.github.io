@@ -29,7 +29,7 @@
 
 </head>
 
-<body id="fashion-in-slow-motion">
+<body id="fashion-in-slow-motion" class="dark">
     <main id="mainContainer">
         <header>
             
@@ -39,62 +39,89 @@
                 <a href="javascript:void(0)" title="View Cart"><i class="fa-solid fa-cart-shopping"></i></a>
                     <ul></ul>
             </nav>
-
             <h1 id="mainHeader">Fashion in Slow Motion</h1>
 
         <!--LIGHT/DARK MODE-->
             <button type="button" id="lightdark" title="Toggle Dark Mode"><i class="fa-solid fa-lightbulb"></i></button>
 
+        <!--STOP ANIMATIONS-->
+            <button type="button" id="stopa" title="Stop Animations"><i class="fa-solid fa-circle-stop"></i></button>
+
+
         </header>
 
 <!--ASSIGNMENT 1--> 
         <!-- OUTFITS STORE -->
-        <section id="outfits" class="mainStyle row centered gap20">
-            <h2>Our Store</h2>
+        <section id="outfits" class="mainStyle">
+            <div class="space">
+                <h2>Our Store</h2>
+            </div>
+            <div class="row centered gap20">
             <div class="col16">
                 <img src="images/turtle-1.jpg" alt="taco" class="responsive">
-                <p>Fun Taco costume</p>
-                <p>$12.99</p>
+                <h3>Fun Taco costume</h3>
+                <h6>$12.99</h6>
                 <button type="button">Add to cart</button>
-
+                <div class="homework3">
+                    <p>Fun Taco costume. Perfect for those Mexican Nights with your <em>amigos</em> and your favourite <strong>turtle</strong>.</p>
+                </div>
             </div>
             <div class="col16">
                 <img src="images/turtle-2.jpeg" alt="shark" class="responsive">
-                <p>Shark outfit</p>
-                <p>$7.99</p>
+                <h3>Shark outfit</h3>
+                <h6>$7.99</h6>
                 <button type="button">Add to cart</button>
+                <div class="homework3">
+                    <p>Planning a trip to the beach? Bring your turtle in this perfect shark outfit and enjoy surfing the waves. </p>
+                </div>
             </div>
             <div class="col16">
                 <img src="images/turtle-3.jpeg" alt="minion" class="responsive">
-                <p>Minion outfit</p>
-                <p>$15.99</p>
+                <h3>Minion outfit</h3>
+                <h6>$15.99</h6>
                 <button type="button">Add to cart</button>
+                <div class="homework3">
+                    <p>Are you and your turtle crazy about bananas? With this Minion outfit you and your bestie will have a lot of fun!</p>
+                </div>
             </div>
             <div class="col16">
                 <img src="images/turtle-4.jpg" alt="pig" class="responsive">
-                <p>Piglet outfit</p>
-                <p>$10.99</p>
+                <h3>Piglet outfit</h3>
+                <h6>$10.99</h6>
                 <button type="button">Add to cart</button>
+                <div class="homework3">
+                    <p>Is your turtle scared of farm animals? This pig costume will help your pet to disguise itself in the farm and feel fashionable safer.</p>
+                </div>
             </div>
             <div class="col16">
                 <img src="images/turtle-5.jpg" alt="cheeta" class="responsive">
-                <p>Cheetah outfit</p>
-                <p>$5.99</p>
+                <h3>Cheetah outfit</h3>
+                <h6>$5.99</h6>
                 <button type="button">Add to cart</button>
+                <div class="homework3">
+                    <p>Don't you dare to say turtles are slow! The cheeta costume will help to your turtle's self-confidence and will make it believe she is the fastest in the world.</p>
+                </div>
             </div>
             <div class="col16">
                 <img src="images/turtle-6.jpg" alt="wedding suit" class="responsive">
-                <p>Wedding suit</p>
-                <p>$18.99</p>
+                <h3>Wedding suit</h3>
+                <h6>$18.99</h6>
                 <button type="button">Add to cart</button>
+                <div class="homework3">
+                    <p>Is there a big event coming? With this suit your turtle will be ready for any special occasion. You can even attach the wedding rings to it and your best-turtle will take them to the groom.</p>
+                </div>
             </div>
+        </div>
 
         </section>
 
 <!--ASSIGNMENT 2-->
         <!-- PUG-AWESOME -->
         <section class="mainStyle">
-            <h3>Pug-awesome</h3>
+            <div class="space">
+                <h2>Pug-awesome</h2>
+            </div>
+            
             <div class="full">
                 <p>Check Tortuga's best friend, Pei the Pug. He loves going shopping with Tortuga and comparing outfits.</p>
             </div>
@@ -114,31 +141,33 @@
             </div>
         </section>
 
-<!--ASSIGNMENT 2B-->
-        <section id="termsCon">
-            <div>
-                <button type="button" id="buttonTC">Terms and Conditions</button>
+<!--ASSIGNMENT 3-->
+        <!-- FAN-CATS-TIC -->
+        <script src="js/assignment_3.js"></script>
+        <section class="mainStyle" id="cats">
+            <div class="space">
+                <h2>Fan-Cats-Tic!</h2>
             </div>
-            <div id="conditions">
-                <p>
-                    All sales are final.
-                </p>                        
-                <p>    
-                    Taxes are not included.
-                </p>
-                <div>
-                    <button type="button" id="readmore">Read More</button>
+            
+            <div class="full">
+                <p>Lest not forget about Gato, the newest member of our fashionable family.</p>
+                <img src="images/cat-1.jpg" alt="vintage costume" class="responsive" id="fullimg">
+            </div>
+            <div class="row centered gap20">
+                <div class="col14 active">
+                    <img src="images/cat-1.jpg" alt="vintage costume" class="responsive">
                 </div>
-                <div id="moreconditions">
-                    <p>
-                        Prices do not include delivery fees.
-                    </p>
-                    <p>
-                    All images are for illustrative purposes and do not reflect the quality of the product.
-                    </p>
+                <div class="col14">
+                    <img src="images/cat-2.jpg" alt="punk-cat" class="responsive">
+                </div>    <div class="col14">
+                <img src="images/cat-3.jpg" alt="Beetlejuice" class="responsive">
+                </div>
+                <div class="col14">
+                    <img src="images/gato.jpeg" alt="Gato the Cat" class="responsive">
                 </div>
             </div>
         </section>
+
 
         <!-- CONTACT -->
         <section id="map" class="mainStyle row gap20">
