@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,700;1,400;1,700&family=Sacramento&display=swap');
+
+
+
+/******************GLOBAL*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #5c5c5c;
+   
+}
+
+main {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+#first {
+    height: 100vh;
+    position: relative;
+    background-image: url(../images/first.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-family: 'Sacramento', sans-serif;
+    font-style: italic;
+    font-size: 3em;
+    line-height: 50px;
+    text-align: end;
+    padding: 30px 30px 30px 30px;
+    background-color: #000;
+    color: #FFF;
+}
+
+h2 {
+    font-family: 'Sacramento', sans-serif;
+    font-style: italic;
+    font-size: 3em;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    color: #5c5c5c;
+}
+
+#lighting div h4 {
+    font-size: 1.4em;
+    text-align: end;
+    padding: 20px 20px 10px 20px;
+
+}
+
+section {
+    width: 100%;
+    background-color: #FFF;
+    outline: 2px solid #00ceff;
+
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.special {font-family: 'Montserrat Alternates'!important}
+
+
+/******************NAV*/
+
+#mainNav {
+    height: 50px;
+    margin-top: 2px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #000;
+    width: 100%;
+    /* position: absolute; */
+}
+
+#mainNav ul li {
+    display: inline-block;
+    background-color: #000;
+
+}
+
+#mainNav ul li a {
+    color: #00ceff;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#mainNav ul li a:hover {
+    color: #000 !important;
+    background-color: #00ceff;
+    padding: 15px 10px;
+}
+
+#mainNav ul li a.current {
+    border-bottom: 2px solid #F00;
+    color: #FFF;
+}
+
+/* #back-to-top {
+    height: 70px;
+    font-size: 300%;
+    margin-bottom: 15px;
+    text-align: end;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 300;
+}
+
+#back-to-top a {
+    color: rgba(128, 128, 128, 0.75);
+    text-shadow: 2px 2px 5px #3e3e3e;
+}
+
+#back-to-top a:hover i {
+    color: rgba(255, 0, 0, 0.81);
+    text-shadow: 2px 2px 5px #FFF;
+    scale: 150%;
+} */
+
+
+/******************CONTAINERS*/
+
+.mainStyle {
+    width: 80%;
+    margin: auto;
+    align-content: center;
+    margin-top: 350px;
+    padding: 30px 30px;
+    border-radius: 5px;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+#floors p {
+    width:90%;
+    font-size: 1.1em;
+    line-height: 30px;
+    padding-bottom: 25px;
+    text-align: center;
+    text-justify: distribute;
+}
+
+/******************INTRODUCTION*/
+
+#introduction p {
+    font-size: 1.1em;
+    text-indent: 25px;
+    line-height: 35px;
+    padding-bottom: 25px;
+}
+
+
+/********COLUMNS*/
+
+.row {
+    display: flex;
+}
+
+.col23 {
+    flex-basis: 66.66%;
+}
+
+.col13 {
+    flex-basis: 33.33%;
+}
+
+.col12 {
+    flex-basis: 50%;
+}
+
+.col14 {
+    flex-basis: 23%;
+}
+
+.col16 {
+    flex-basis: 30%;
+    margin: 0 auto;
+}
+
+.full {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.full img {
+    max-width: 50%;
+}
+
+.full p {
+    padding-bottom: 30px;
+}
+
+.gap20 {
+    gap: 20px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.inbetween {
+    justify-content: space-between;
+}
+
+/*****************MASONRY GALLERY*/
+
+.free-wall {
+    margin: 15px;
+}
+
+.brick {
+	background: white;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+	border-radius: 3px;
+	border: none;
+    width: 20%;
+}
+
+.brick.brick-width-2 {
+    width: 40%;
+}
+
+.brick img {
+	width: 100%;
+	margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+/*****************STICKY HEADER*/
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+
+/******************FLEXSLIDER*/
+
+/******************ACCORDION*/
+
+#countertops p {
+
+    width:90%;
+    padding-top: 15px;
+    font-size: 1.1em;
+    line-height: 30px;
+    padding-bottom: 25px;
+    text-align: left;
+    text-justify: distribute;
+}
+
+#countertops img {
+    max-width: 80%;
+}  
+
+/******************LIGHTBOX*/
+
+#cabinets img {
+    margin-bottom: 20px;
+}
+
+/******************VIDEO PLAYER*/
+
+/******************CONTACT INFO POP UP*/
+#dialog h2 {
+    margin:20px;
+}
+
+#dialog p, 
+#dialog p a {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #5c5c5c;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.ui-dialog-title {
+    font-family: 'Montserrat Alternates' !important;
+    font-size: 1.1em;
+    color: #5c5c5c;
+}
+
+div.ui-dialog-titlebar {
+    background-color: #00ccff;
+
+}
+
+div.ui-dialog {
+    outline: 2px solid #00ccff;
+
+}
+
+address {
+    font-style: normal;
+}
+
+/******************TABS IN THE LIGHTING GALLERY*/
+
+.ui-tabs-tab {
+    font-family: 'Montserrat Alternates' !important;
+    font-size: 1.1em;
+    color: #5c5c5c !important;
+}
+.ui-tabs-active {
+    background-color: #00ccff !important;
+    font-family: 'Montserrat Alternates' !important;
+    font-size: 1.1em;
+    color: #5c5c5c !important;
+}
+
+
+/******************FOOTER*/
+#mainFooter {
+    background-color: #00ceff;
+    width: 100%;
+    padding: 60px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+
+
+
