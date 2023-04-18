@@ -1,0 +1,287 @@
+/********************* COLORS */
+
+/*
+Light Pink: #FDECFB;
+Alice Blue: #E8F4FF;
+Russian Violet: #2D1653;
+*/
+
+/****************** FONTS*/
+
+@import url('https://fonts.cdnfonts.com/css/channel-tuning-2');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+/******************GLOBAL*/
+* {
+    font-family: 'Urbanist';
+    font-weight:400;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'channel tuning';
+    font-size:4em;
+    color: #2D1653;
+    padding:200px 0 0 0;
+    line-height: 100px;
+    
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 1),2px 2px 8px rgba(255, 255, 255, 1),-2px -2px 4px rgba(255, 255, 255, 1),5px 11px 17px rgba(255, 255, 255, 1);
+}
+
+h2 {
+    font-family: 'channel tuning';
+    font-size:2.5em;
+    color: #2D1653;
+    height:100px;
+    line-height:100px;   
+}
+
+h3 {
+    font-family: 'channel tuning';
+    font-size:1.5em;
+    color: #2D1653;
+    height:100px;
+    line-height:100px;   
+}
+
+p, ol, ul {
+    font-size:1em;
+    line-height: 1.5em;
+}
+
+strong {
+    font-weight: 700;
+}
+
+em, i {
+    font-style:italic;
+}
+
+/******************IDS*/
+#mainContainer {
+    width: 960px;
+    margin:0 auto;
+}
+
+#home {
+    background-image:
+        url(../images/header-code.jpg);
+    background-attachment: 
+        scroll;
+    background-position: 
+        center;
+    background-size: 
+        cover;
+    background-repeat:
+        no-repeat; 
+}
+
+#lessons {
+    background-image:
+        url(../images/logo.svg),
+        url(../images/header-lessons.jpg);
+    background-attachment: 
+        scroll,
+        scroll;
+    background-position: 
+        350px 200px,
+        center;
+    background-size: 
+        200px 200px,
+        cover;
+    background-repeat:
+        no-repeat,
+        no-repeat; 
+}
+
+#about-us {
+    background-image:
+        url(../images/logo.svg),
+        url(../images/header-about.jpg);
+    background-attachment: 
+        scroll,
+        scroll;
+    background-position: 
+        350px 200px,
+        center;
+    background-size: 
+        200px 200px,
+        cover;
+    background-repeat:
+        no-repeat,
+        no-repeat;
+}
+
+#mainVideo {
+    height: 540px;
+}
+
+#gallery, #tuition {
+    background-color: #FDECFB;
+    text-align: center;
+    padding:0 25px;
+    height:1000px;
+}
+
+#map {
+    padding:0;
+    margin-left:450px;
+}
+
+#address {
+    width:380px;
+    height:300px;
+    line-height: 25px;
+    text-align: left;
+    margin:0;
+    padding:0; 
+    float:left;
+}
+
+#mainFooter{
+    background-color: #000;
+    color:#FFF;
+    padding:30px 50px;
+}
+
+#values {
+    list-style:decimal;
+    text-align: justify;
+}
+
+#values-box {
+    padding:0 60px;
+}
+
+/******************CLASSES*/
+.mainHeader {
+    height:550px;
+}
+
+.content {
+    padding:50px; 
+    background-color: #FDECFB;
+}
+
+.column {
+    width:33%;
+    float:left;      
+}
+
+.contact {
+    padding:50px; 
+    background-color: #d4195c;
+    color:#FFF;
+    height:300px;
+}
+
+.portfolio {
+    background-color: #FDECFB;
+}
+
+.info {
+    float:right;
+    width:60%;
+    height:300px;
+    margin-bottom:20px;
+    background-color: #E8F4FF;
+
+}
+
+.sample {
+    width:40%;
+    height:300px;
+    margin-bottom:20px;
+}
+/******************COMPOUNDS*/
+
+.column a:hover {
+    opacity:0.5;
+}
+
+
+/******************DESCENDANTS*/
+
+
+#address a {
+    text-decoration: none;
+    color:#FFF;
+    font-weight: bold;
+}
+
+
+#gallery h2, #tuition h2 {
+    padding-top:30px; 
+}
+
+.content p {
+    text-align: justify;
+    padding:30px 40px; 
+}
+
+.column img {
+    margin-bottom:25px;
+}
+
+.portfolio p {
+    padding:50px
+}
+.sample img {
+    padding:0 50px;
+    margin:20px 0;
+    width: 240px;
+}
+
+.info:last-child {
+    margin-bottom:0;
+}
+.sample:last-child {
+    margin-bottom:0;
+}
+
+.content img {
+    padding-left:0;
+    margin-left:  0;
+}
+
+/******************MAIN NAV*/
+
+#mainNav {
+    width:960px;
+    font-size:1.2em;
+    font-weight: 700;
+    text-align: center;
+    height:60px;
+    line-height: 60px;
+    background-color:#FFEAF4;
+    margin:0;
+    background-image: url(../images/nav-gradient.jpg);
+    background-repeat:repeat-x;
+    background-position: top;
+}
+
+
+#mainNav a {
+    width:160px;
+    text-decoration: none;
+    color:#001ec3;
+    display:inline-block;
+    margin:0;
+    text-align: center;
+}
+
+#mainNav a:hover {
+    background-color: #d4195c;
+    color:#FFF;
+}
+
+#mainNav .current {
+    background-color: #d4195c;
+    color:#FFF;
+}
+
+
