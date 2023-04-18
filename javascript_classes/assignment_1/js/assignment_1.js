@@ -1,6 +1,6 @@
 //Add item to the cart.
 function addToCart(){
-    var productNameElement = $(this).siblings("p").first();
+    var productNameElement = $(this).siblings("h3").first();
     var productName = productNameElement.text();
     var productPrice = productNameElement.next().text();
 
